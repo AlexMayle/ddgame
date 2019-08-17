@@ -17,7 +17,7 @@ permalink: /blog/
   </div>
 </section>
 <section id="blog-posts">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts %}
   <div class="post-area">
     <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
     <p class="post-date">{{ post.date | date_to_long_string }}</p>

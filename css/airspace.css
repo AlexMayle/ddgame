@@ -202,10 +202,10 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
+  background: url("../img/junk-drawer-hero-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 70px 0px;
+  padding: 40px 0px;
   position: relative;
   text-align: center;
   color: #fff;
@@ -862,6 +862,7 @@ footer .footer-manu ul li a:hover {
     font-size:40px;
     display:inline;
     line-height: 1;
+    padding-right: 15px;
 }
 
 #social-email {
@@ -876,3 +877,8 @@ footer .footer-manu ul li a:hover {
 #blog-posts {
     max-width: 960px;
     margin: 0px auto;
+}
+
+#social-container {
+    padding-top: 20px;
+}
