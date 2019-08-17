@@ -228,6 +228,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
   font-size: 30px;
 }
+
 #call-to-action p {
   font-size: 14px;
   line-height: 1.6;
@@ -847,4 +848,27 @@ footer .footer-manu ul li a:hover {
     .center-text-mobile {
 	text-align: left;
     }
+}
+
+.social-icon {
+    width: 40px;
+    margin: 0px 15px 21px 15px;
+}
+
+#social-header h3 {
+    padding: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-size:40px;
+    display:inline;
+    line-height: 1;
+}
+
+#social-email {
+    height: 40px !important;
+    padding: 10px 15px !important;
+    margin-top: 0px !important;
+    margin-bottom: 21px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
 }
