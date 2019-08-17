@@ -872,3 +872,7 @@ footer .footer-manu ul li a:hover {
     margin-left: 15px !important;
     margin-right: 15px !important;
 }
+
+#blog-posts {
+    max-width: 960px;
+    margin: 0px auto;
