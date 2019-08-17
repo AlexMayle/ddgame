@@ -836,6 +836,11 @@ footer .footer-manu ul li a:hover {
     text-align: center;
 }
 
+.center-btn-mobile {
+    margin: 0px auto;
+    padding-bottom: 15px;
+}
+
 @media (min-width: 1200px) {
     #slider .block h1 {
 	text-align: left;
@@ -847,6 +852,10 @@ footer .footer-manu ul li a:hover {
 
     .center-text-mobile {
 	text-align: left;
+    }
+
+    .center-btn-mobile {
+	margin: 0px;
     }
 }
 
