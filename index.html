@@ -15,7 +15,7 @@ permalink: /
         </div>
       </div>
       <div class="col-lg-7">
-        <div class="block">
+        <div class="block facebook-responsive">
 <iframe id="feature-video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FDrunkDrawerGame%2Fvideos%2F672523263220622%2F&width=650&show_text=false&height=367&appId" width="650" height="367" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
         </div>
       </div>
@@ -45,8 +45,7 @@ permalink: /
           <div id="testimonial-slider" class="owl-carousel">
             {% for tm in site.data.testimonials %}
             <div>
-                <img src="img/cotation.png" alt="IMG">
-                <p>{{ tm.testimonial }}</p>
+		<img class="homepage-sample-card" src="{{ tm.image }}">
                 <!-- <div class="user">
                   <img src="{{ tm.image }}" alt="Pepole">
 		  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
@@ -66,14 +65,19 @@ permalink: /
     <div class="row">
       <div class="col-xs-12">
         <div id="social-header" class="block">
-          <h3>Connect</h3>
-	  <a href="https://www.instagram.com/drunkdrawergame/">
-	    <img class="social-icon" src="{{ site.baseurl }}/img/social/instagram.png"/>
-	  </a>
-	  <a href="https://www.facebook.com/DrunkDrawerGame">
-	    <img class="social-icon" src="{{ site.baseurl }}/img/social/facebook.png"/>
-	  </a>
-	  <a id="social-email" class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Contact Us</a>
+          <h2>Connect</h2>
+	  <div>
+	      <a href="https://www.instagram.com/drunkdrawergame/">
+		<img class="social-icon" src="{{ site.baseurl }}/img/social/instagram.png"/>
+	      </a>
+	      <a href="https://www.facebook.com/DrunkDrawerGame">
+		<img class="social-icon" src="{{ site.baseurl }}/img/social/facebook.png"/>
+	      </a>
+	      <a href="https://www.twitter.com/DrunkDrawerGame">
+		<img class="social-icon" src="{{ site.baseurl }}/img/social/twitter.png"/>
+	      </a>
+	      <a id="social-email" class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Contact Us</a>
+	  <div>
 	</div>
       </div>
     </div>

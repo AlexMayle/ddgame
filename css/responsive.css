@@ -183,10 +183,10 @@ px      68    160    252    */
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 20px;
+    font-size: 35px;
   }
   #slider .block p {
-    font-size: 13px;
+    font-size: 20px;
   }
   /*--
 	wrapper Start 
@@ -214,7 +214,7 @@ px      68    160    252    */
 	call-to-action Start 
 --*/
   #call-to-action p {
-    padding: 0px 0px 40px;
+    padding: 0px 0px 0px;
   }
   #call-to-action .btn {
     padding: 10px 20px;
